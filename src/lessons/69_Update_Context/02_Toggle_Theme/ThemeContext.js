@@ -6,7 +6,7 @@ function ThemeProvider(props) {
   const [theme, setTheme] = useState('dark');
 
   function toggleTheme() {
-    if (theme == 'dark') {
+    if (theme === 'dark') {
       setTheme('light');
     } else {
       setTheme('dark');
